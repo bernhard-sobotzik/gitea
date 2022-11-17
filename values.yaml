@@ -316,7 +316,8 @@ gitea:
   #  APP_NAME: "Gitea: Git with a cup of tea"
   #  RUN_MODE: dev
   #
-  #  server:
+    server:
+      ROOT_URL: "http://localhost:3000"
   #    SSH_PORT: 22
   #
   #  security:
