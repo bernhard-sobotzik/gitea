@@ -268,7 +268,7 @@ gitea:
     #existingSecret: gitea-admin-secret
     existingSecret:
     username: gitea_admin
-    password: bernhard
+    password: SummitCologne
     email: "gitea@local.domain"
 
   ## @param gitea.metrics.enabled Enable Gitea metrics
@@ -312,12 +312,12 @@ gitea:
     #   customEmailUrl:
 
   ## @param gitea.config  Configuration for the Gitea server,ref: [config-cheat-sheet](https://docs.gitea.io/en-us/config-cheat-sheet/)
-  config: 
-    APP_NAME: "DevOps Summit for Win!"
+  config: {}
+  #  APP_NAME: "DevOps Summit for Win!"
   #  RUN_MODE: dev
   #
-    server:
-      ROOT_URL: "http://localhost:3000"
+  #  server:
+  #    ROOT_URL: "http://localhost:3000"
   #    SSH_PORT: 22
   #
   #  security:
