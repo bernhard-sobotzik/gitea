@@ -316,8 +316,8 @@ gitea:
     APP_NAME: "DevOps Summit for Win!"
   #  RUN_MODE: dev
   #
-  #  server:
-  #    ROOT_URL: "http://localhost:3000"
+    server:
+      ROOT_URL: "http://localhost:3000"
   #    SSH_PORT: 22
   #
   #  security:
